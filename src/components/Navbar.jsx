@@ -9,8 +9,8 @@ const Navbar = () => {
    <>
    <div className='w-full flex justify-between items-center font-semibold'>
     <div className='flex items-center gap-2'>
-        <img onClick={()=>navigate(-1)} className='w-8 bg-balck p-2 rounded-2xl cursor-pointer' src="src\assets\left_arrow.png"/>
-        <img onClick={()=>navigate(1)} className='w-8 bg-balck p-2 rounded-2xl cursor-pointer' src="src\assets\right_arrow.png"/>
+        <img onClick={()=>navigate(-1)} className='w-8 bg-balck p-2 rounded-2xl cursor-pointer' src={assets.arrow_left}/>
+        <img onClick={()=>navigate(1)} className='w-8 bg-balck p-2 rounded-2xl cursor-pointer' src={assets.arrow_right}/>
 
     </div>
     <div className='flex items-center gap-4'>

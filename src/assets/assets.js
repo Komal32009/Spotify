@@ -22,25 +22,57 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img13 from './img13.jpg'
-import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import img20 from './img20.jpg'
+import img17 from './img17.jpg'
+import img18 from './img18.jpg'
+import img19 from './img19.jpg'
+import guza from './guza.jpg'
+import hakee from './hakee.jpg'
+import img21 from './img21.jpeg'
+import mujhe from './mujhe.jpeg'
+import mera from './mera.jpg'
+import fitoor from './fitoor.jpg'
+import sun from './sun.jpg'
+import gulaab from './gulaab.jpg'
+import kusu from './kusu.jpg'
+import kahani from './kahani.jpg'
+import hale from './hale.jpeg'
+import lena from './lena.jpeg'
+import mann from './mann.jpg'
+import labon from './labon.jpg'
+import laung from './laung.jpg'
+import sakisaki from './sakisaki.jpg'
+import aayinai from  './aayinai.mp3'
+import dilbar from  './dilbar.mp3'
+import haledil from  './haledil.mp3'
+import tumhiho from  './tumhiho.mp3'
+import wolamhe from  './wolamhe.mp3'
+import merapyar from  './merapyar.mp3'
+import loveme from  './loveme.mp3'
+import hazaro from  './hazaro.mp3'
+import tumbin from  './tumbin.mp3'
+import dilmeri from  './dilmeri.mp3'
+import guzarish from  './guzarish.mp3'
+import hakeekat from  './hakeekat.mp3'
+import fitoorjab from  './fitoorjab.mp3'
+import aankh from  './aankh.mp3'
+import mannmera from  './mannmera.mp3'
+import labonko from  './labonko.mp3'
+import laachi from  './laachi.mp3'
+import saki from  './saki.mp3'
+import kahanisuno from  './kahanisuno.mp3'
+import kusukusu from  './kusukusu.mp3'
+
+
+
+
+
 
 export const assets = {
     bell_icon,
@@ -117,66 +149,173 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Dekha Hazaro Dafa",
+        image: img20,
+        file:hazaro,
+        desc:"Rustom Vahi",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Tum hi Ho",
+        image: img17,
+        file:tumhiho,
+        desc:"Ashiqui 2, Arijit Singh",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Dilbar",
+        image: img18,
+        file:dilbar,
+        desc:"Satyamev Jayate , Neha Kakkar",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Aayi Nai",
+        image: img19,
+        file:aayinai,
+        desc:"Stree 2 , Pawan Singh",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "I Love You",
+        image: img21,
+        file:loveme,
+        desc:"Akul , songs",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Hale Dil",
+        image: hale    ,
+        file:haledil,
+        desc:"Emran Hashmi",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Kya Mujhe Pyar Hai",
+        image: mujhe,
+        file:wolamhe,
+        desc:"Wo lamhe , K.K",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
+        name: "Tum Ho Mera Pyar",
+        image: mera,
+        file:merapyar,
+        desc:"Haunted movie",
+        duration:"2:35"
+    },
+{
+        id:8,
+        name: "Dekh Lena ",
+        image: lena,
+        file:tumbin,
+        desc:"Tum Bin 2, Arijit singh , Neha Sharma",
+        duration:"2:35"
+    },
+    {
+        id:9,
+        name: "Dil Meri Na Sune ",
+        image: sun,
+        file:dilmeri,
+        desc:"Genius , Arijit Singh",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:10,
+        name: " Guzzarish ",
+        image: guza,
+        file:guzarish,
+        desc:"Gajni , Amir Khan, Aashin",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:11,
+        name: " Tera Fitoor  ",
+        image: fitoor,
+        file:fitoorjab,
+        desc:"Genius, Arijit Singh",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:12,
+        name: " Tu Hi Hakeekat  ",
+        image: hakee,
+        file:hakeekat,
+        desc:"Emraan Hashmi",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:13,
+        name: "Ankhiyan Gulaab  ",
+        image: gulaab,
+        file:aankh,
+        desc:"Teri Baaton mein aisa uljha jiya",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:14,
+        name: "Mann Mera ",
+        image:mann,
+        file:mannmera,
+        desc:"Table No. 21",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:15,
+        name: "Labon Ko ",
+        image:labon,
+        file:labonko,
+        desc:"Bhool Bhoolaiya, Akshay Kumar, Vidya Balan",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:16,
+        name: "Laung Laachi",
+        image:laung,
+        file:laachi,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
+    ,
+    {
+        id:17,
+        name: "Saaki Sakki",
+        image:sakisaki,
+        file:saki,
+        desc:"Nora Fatehi , Neha Kakkar",
+        duration:"2:35"
+    }
+    ,
+    {
+        id:18,
+        name: "Kahani Suno 2.0",
+        image:kahani,
+        file:kahanisuno,
+        desc:"singers Choice",
+        duration:"2:53"
+    }
+    ,
+    {
+        id:19,
+        name: "Kusu Kusu",
+        image:kusu,
+        file:kusukusu,
+        desc:"Nora Fatehi , Satyamev Jayate",
+        duration:"2:35"
+    }
+
 ]

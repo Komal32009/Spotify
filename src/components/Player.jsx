@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { assets } from '../assets/assets'
+import { assets, songsData } from '../assets/assets'
 import { PlayerContext } from '../context/PlayerContext'
 const Player = () => {
 const {track,seekBar,seekBg,playStatus,play,pause,time,previous,next,seekSong} = useContext(PlayerContext);
@@ -8,7 +8,7 @@ const {track,seekBar,seekBg,playStatus,play,pause,time,previous,next,seekSong} =
 
 
   return (
-    <div className='h-[10%] bg-black flex  justofy-between items-center text-white px-4'>
+    <div className='h-[10%] bg-black flex  justify-between items-center text-white px-4'>
         <div className='hidden lg:flex items-center gap-4'>
             <img className='w-12' src={track.image}/>
             <div>
@@ -20,16 +20,16 @@ const {track,seekBar,seekBg,playStatus,play,pause,time,previous,next,seekSong} =
         
         <div className='flex flex-col items-center gap-1 m-auto'>
             <div className='flex gap-4'>
-                <img className='w-4 cursor-pointer' src="src\assets\shuffle.png"/>
-                <img  onClick={previous} className='w-4 cursor-pointer' src="src\assets\prev.png"/>
+                <img className='w-4 cursor-pointer' src={assets.shuffle_icon}/>
+                <img  onClick={previous} className='w-4 cursor-pointer' src={assets.prev_icon}/>
                 {playStatus
-                ?<img onClick ={pause} className='w-4 cursor-pointer' src="src\assets\pause.png"/>:
-                <img onClick ={play} className='w-4 cursor-pointer' src="src\assets\play.png"/>
+                ?<img onClick ={pause} className='w-4 cursor-pointer' src={assets.pause_icon}/>:
+                <img onClick ={play} className='w-4 cursor-pointer' src={assets.play_icon}/>
                 }
                
                 
-                <img onClick={next} className='w-4 cursor-pointer' src="src\assets\next.png"/>
-                <img className='w-4 cursor-pointer' src="src\assets\loop.png"/>
+                <img onClick={next} className='w-4 cursor-pointer' src={assets.next_icon}/>
+                <img className='w-4 cursor-pointer' src={assets.loop_icon}/>
 
             </div>
            <div className='flex items-center gap-5'>
@@ -50,16 +50,16 @@ const {track,seekBar,seekBg,playStatus,play,pause,time,previous,next,seekSong} =
 
         </div>
         <div className='hidden lg:flex items-center gap-2 opacity-75'>
- <img className='w-4' src="src\assets\plays.png"/>
- <img className='w-4' src="src\assets\mic.png"/>
- <img className='w-4' src="src\assets\queue.png"/>
- <img className='w-4' src="src\assets\speaker.png"/>
- <img className='w-4' src="src\assets\volume.png"/>
+ <img className='w-4' src={assets.plays_icon}/>
+ <img className='w-4' src={assets.mic_icon}/>
+ <img className='w-4' src={assets.queue_icon}/>
+ <img className='w-4' src={assets.speaker_icon}/>
+ <img className='w-4' src={assets.volume_icon}/>
  <div className='w-20 bg-slate-50 h-1 rounded'>
 
  </div>
- <img className='w-4' src="src\assets\mini-player.png"/>
- <img className='w-4' src="src\assets\zoom.png"/>
+ <img className='w-4' src={assets.mini_player_icon}/>
+ <img className='w-4' src={assets.zoom_icon}/>
 
         </div>
       
